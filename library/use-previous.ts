@@ -9,7 +9,7 @@ export const usePrevious = <T>(value: T): T | undefined => {
       setPreviousValue(currentValue)
       setCurrentValue(value)
     }
-  }, [value, currentValue])
+  }, [value !== currentValue])
 
   return previousValue
 }
