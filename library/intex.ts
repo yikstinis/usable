@@ -1,3 +1,4 @@
 export * from './use-previous'
-export * from './use-throttle'
+export * from './use-throttled-value'
+export * from './use-throttled-effect'
 export * from './use-unmount'
